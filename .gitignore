@@ -1,0 +1,9 @@
+/src/bin
+/src/obj
+/src/csvreader-net.csproj.user
+/.vs
+/packages
+/tests/obj
+/tests/bin
+/tests/csvreader-net-tests.csproj.user
+/src/Properties/PublishProfiles/FolderProfile.pubxml.user
