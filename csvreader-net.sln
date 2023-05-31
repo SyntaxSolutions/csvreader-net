@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csvreader-net", "src\csvreader-net.csproj", "{0C61DE5A-7CD9-4840-B68D-4AC3A05E358C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{BEEA6787-99A3-47A8-9E48-2DB25ED33197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{D04794D2-4127-4699-8929-AC05FA145632}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{8D5117F3-0B93-47AD-B024-EC6FDAFFA3B4}"
+	ProjectSection(SolutionItems) = preProject
+		build\package-icon.png = build\package-icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{14D8CFAA-BE13-4957-967E-C2356CC570BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C61DE5A-7CD9-4840-B68D-4AC3A05E358C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C61DE5A-7CD9-4840-B68D-4AC3A05E358C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C61DE5A-7CD9-4840-B68D-4AC3A05E358C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C61DE5A-7CD9-4840-B68D-4AC3A05E358C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C61DE5A-7CD9-4840-B68D-4AC3A05E358C} = {BEEA6787-99A3-47A8-9E48-2DB25ED33197}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD965FEB-A9D4-414B-903E-7C40E64E3EC5}
+	EndGlobalSection
+EndGlobal

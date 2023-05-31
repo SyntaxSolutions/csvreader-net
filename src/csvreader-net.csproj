@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+    <RootNamespace>SyntaxSolutions.CsvReader</RootNamespace>
+    <AssemblyName>SyntaxSolutions.CsvReader</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Syntax Solutions Ltd</Authors>
+    <Description>A simple .Net library used to format data into comma-separated values (CSV)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/SyntaxSolutions/csvreader-net</PackageProjectUrl>
+    <Product>CsvReader</Product>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/SyntaxSolutions/csvreader-net</RepositoryUrl>
+    <Copyright>Syntax Solutions Ltd</Copyright>
+    <PackageTags>c#,.Net,CSV</PackageTags>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>A simple .Net library used to read comma-separated values (CSV) files</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <PackageIcon>package-icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\build\package-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
