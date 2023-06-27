@@ -12,7 +12,8 @@ namespace SyntaxSolutions.CsvReader
         /// <summary>
         /// Get a CsvRow containing the headers
         /// </summary>
-        public CsvRow Headers { 
+        public CsvRow Headers 
+        { 
             get { return this._headers; }
         }
 
@@ -31,7 +32,7 @@ namespace SyntaxSolutions.CsvReader
         /// <param name="filePath">Path to the CSV file.</param>
         /// <param name="hasHeaders">Indicates whether the first row of the CSV file is a header row.</param>
         /// <param name="trimWhiteSpace">Indicates whether leading and trailing white space should be trimmed from each cell value.</param>
-        public CsvReader(string filePath = null, bool hasHeaders = true, bool trimWhiteSpace = true)
+        public CsvReader(string filePath = null, bool hasHeaders = true, bool trimWhiteSpace = false)
         {
             if (!string.IsNullOrEmpty(filePath))
             {

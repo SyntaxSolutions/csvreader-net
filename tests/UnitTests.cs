@@ -13,7 +13,7 @@ namespace csvreader_net_tests
             var reader = new CsvReader(
                 filePath: "TestBasicHeadersAndRows_Expected.csv",
                 hasHeaders: true,
-                trimWhiteSpace: true
+                trimWhiteSpace: false
             );
 
             Console.WriteLine("HEADERS");
@@ -22,9 +22,11 @@ namespace csvreader_net_tests
                 Console.WriteLine(string.Format("-{0}-", cell.Value));
             }
 
-            Console.WriteLine("ROWS");
+            int index = 0;
             foreach (var row in reader.Rows)
             {
+                index++;
+                Console.WriteLine("ROW" + index.ToString());
                 foreach (var cell in row.Cells)
                 {
                     Console.WriteLine(string.Format("-{0}-", cell.Value));
