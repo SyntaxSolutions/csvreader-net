@@ -9,6 +9,7 @@ namespace SyntaxSolutions.CsvReader
     public class CsvReader
     {
         private CsvRow _headers;
+
         /// <summary>
         /// Get a CsvRow containing the headers
         /// </summary>
