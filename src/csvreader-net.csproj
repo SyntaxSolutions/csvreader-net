@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net452</TargetFramework>
+    <TargetFrameworks>net6.0;net452</TargetFrameworks>
     <RootNamespace>SyntaxSolutions.CsvReader</RootNamespace>
     <AssemblyName>SyntaxSolutions.CsvReader</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -23,6 +23,7 @@
     <PackageIcon>package-icon.png</PackageIcon>
     <Title>CSV Reader</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

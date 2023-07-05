@@ -7,3 +7,8 @@
 /tests/bin
 /tests/csvreader-net-tests.csproj.user
 /src/Properties/PublishProfiles/FolderProfile.pubxml.user
+/build/Package
+/tests/UnitTestDotNet/bin
+/tests/UnitTestDotNet/obj
+/tests/UnitTestDotNetFramework/bin
+/tests/UnitTestDotNetFramework/obj

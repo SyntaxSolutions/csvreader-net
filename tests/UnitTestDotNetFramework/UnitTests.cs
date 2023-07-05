@@ -1,8 +1,9 @@
 ﻿using System;
+using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SyntaxSolutions.CsvReader;
 
-namespace csvreader_net_tests
+namespace UnitTestDotNetFramework
 {
     [TestClass]
     public class UnitTests
@@ -11,7 +12,7 @@ namespace csvreader_net_tests
         public void TestBasicHeadersAndRows()
         {
             var reader = new CsvReader(
-                filePath: "TestBasicHeadersAndRows_Expected.csv",
+                filePath: Directory.GetCurrentDirectory() + @"..\..\..\..\Shared\TestBasicHeadersAndRows_Expected.csv",
                 hasHeaders: true,
                 trimWhiteSpace: false
             );

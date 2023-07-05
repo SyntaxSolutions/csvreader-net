@@ -20,7 +20,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{8D5117F3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{14D8CFAA-BE13-4957-967E-C2356CC570BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csvreader-net-tests", "tests\csvreader-net-tests.csproj", "{B57E298A-1BE9-4268-82CC-13E4051A9FC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDotNetFramework", "tests\UnitTestDotNetFramework\UnitTestDotNetFramework.csproj", "{B57E298A-1BE9-4268-82CC-13E4051A9FC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDotNet", "tests\UnitTestDotNet\UnitTestDotNet.csproj", "{08326E14-4F62-484E-93B1-B1794773A3C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0FFAAF77-D67A-456B-A944-87A6B5A88A95}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Shared\TestBasicHeadersAndRows_Expected.csv = tests\Shared\TestBasicHeadersAndRows_Expected.csv
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +43,10 @@ Global
 		{B57E298A-1BE9-4268-82CC-13E4051A9FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B57E298A-1BE9-4268-82CC-13E4051A9FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B57E298A-1BE9-4268-82CC-13E4051A9FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08326E14-4F62-484E-93B1-B1794773A3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08326E14-4F62-484E-93B1-B1794773A3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08326E14-4F62-484E-93B1-B1794773A3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08326E14-4F62-484E-93B1-B1794773A3C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +54,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0C61DE5A-7CD9-4840-B68D-4AC3A05E358C} = {BEEA6787-99A3-47A8-9E48-2DB25ED33197}
 		{B57E298A-1BE9-4268-82CC-13E4051A9FC8} = {14D8CFAA-BE13-4957-967E-C2356CC570BA}
+		{08326E14-4F62-484E-93B1-B1794773A3C9} = {14D8CFAA-BE13-4957-967E-C2356CC570BA}
+		{0FFAAF77-D67A-456B-A944-87A6B5A88A95} = {14D8CFAA-BE13-4957-967E-C2356CC570BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD965FEB-A9D4-414B-903E-7C40E64E3EC5}
