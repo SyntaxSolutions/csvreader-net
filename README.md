@@ -5,6 +5,7 @@ A simple .Net library used to read comma-separated values (CSV) from a file or d
 
 1. RFC 4180 standard compliant 
 1. UTF-8 encoding compatible. 
+1. Compatible with frameworks: net6.0, net452
 
 ## Installation
 
