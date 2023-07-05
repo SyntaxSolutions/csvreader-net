@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SyntaxSolutions.CsvReader
 {
+    /// <summary>
+    /// A single cell and the value within it.
+    /// </summary>
     public class CsvCell
     {
         private string _value; 

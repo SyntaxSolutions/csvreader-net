@@ -6,6 +6,9 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace SyntaxSolutions.CsvReader
 {
+    /// <summary>
+    /// Read the CSV data with options.
+    /// </summary>
     public class CsvReader
     {
         private CsvRow _headers;

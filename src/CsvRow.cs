@@ -3,6 +3,9 @@ using System.Collections.ObjectModel;
 
 namespace SyntaxSolutions.CsvReader
 {
+    /// <summary>
+    /// A row of cells
+    /// </summary>
     public class CsvRow
     {
         private List<CsvCell> _cells;
