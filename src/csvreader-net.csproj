@@ -17,9 +17,9 @@
     <PackageIconUrl></PackageIconUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageReleaseNotes>A simple .Net library used to read comma-separated values (CSV) files</PackageReleaseNotes>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
     <PackageIcon>package-icon.png</PackageIcon>
     <Title>CSV Reader</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
